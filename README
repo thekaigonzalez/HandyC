@@ -1,3 +1,22 @@
 Handy written in D
 
 Handy C++ is faster. 
+
+[1, 2, 3, 4]
+
+1 - 2 - 3 - 4
+
+
+Handy (DLang)
+
+real    0m0.029s
+user    0m0.000s
+sys     0m0.025s
+
+Handy (C++)
+
+real    0m0.003s
+user    0m0.002s
+sys     0m0.000s
+
+Multiple tests indicate that Handy C++ doesn't go over the 0.010s mark.
